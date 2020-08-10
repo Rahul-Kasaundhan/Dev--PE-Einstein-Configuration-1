@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>fundraising_with_fundRollups_and_account</dataset>
+    <dimensions>
+        <field>LegalName.Name</field>
+        <isDerived>false</isDerived>
+        <label>Investor</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>LegalName.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Legal_Name__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LegalName.Institution_Type__c</field>
+        <isDerived>false</isDerived>
+        <label>Investor Type</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>PortfolioCompany.Name</field>
+        <isDerived>false</isDerived>
+        <label>Company Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>PortfolioCompany.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Portfolio_Company__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <measures>
+        <field>navpeII__Investment_Likely_Amount_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Amount (M)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>DaysSinceOpen</field>
+        <isDerived>false</isDerived>
+        <label>Days</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>

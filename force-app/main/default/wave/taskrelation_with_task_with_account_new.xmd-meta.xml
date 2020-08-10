@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>taskrelation_with_task_with_account_new</dataset>
+    <dates>
+        <alias>task.Activity_Date__c</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>task.Activity_Date__c</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dates>
+        <alias>task.ActivityDate</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Activity Date</label>
+        <sortIndex>1</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>DueDateHalfYearly</field>
+        <isDerived>false</isDerived>
+        <label>Activity Date (Half Yearly)</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>account.navpeII__Tier__c</field>
+        <isDerived>false</isDerived>
+        <label>Tier</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>task.ActivityDate_Quarter</field>
+        <isDerived>false</isDerived>
+        <members>
+            <label>Q1</label>
+            <member>1</member>
+            <sortIndex>0</sortIndex>
+        </members>
+        <members>
+            <label>Q2</label>
+            <member>2</member>
+            <sortIndex>1</sortIndex>
+        </members>
+        <members>
+            <label>Q3</label>
+            <member>3</member>
+            <sortIndex>2</sortIndex>
+        </members>
+        <members>
+            <label>Q4</label>
+            <member>4</member>
+            <sortIndex>3</sortIndex>
+        </members>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+</WaveXmd>

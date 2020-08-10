@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Pipeline</dataset>
+    <dates>
+        <alias>Log In Date</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Region__c</field>
+        <isDerived>false</isDerived>
+        <label>Region ID</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Source_Company__c.Account_Region.Name</field>
+        <isDerived>false</isDerived>
+        <label>Region</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Industry__c</field>
+        <isDerived>false</isDerived>
+        <label>Industry ID</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Source_Company__c.Account_Industry.Name</field>
+        <isDerived>false</isDerived>
+        <label>Industry</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>pipeline_with_partner.dealteam_with_user.Name</field>
+        <isDerived>false</isDerived>
+        <label>Partner</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+</WaveXmd>

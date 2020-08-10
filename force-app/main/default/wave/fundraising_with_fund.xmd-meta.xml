@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>fundraising_with_fund</dataset>
+    <dimensions>
+        <field>fundraising_with_fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fund Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <measures>
+        <field>fundraising_with_fund.navpeII__Target_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Target Amount</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>fundraising_with_fund.navpeII__Total_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Total AUM</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>

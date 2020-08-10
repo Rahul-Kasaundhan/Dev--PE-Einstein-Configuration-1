@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Marketing_Events</dataset>
+    <dimensions>
+        <field>Organizer__c.Name</field>
+        <isDerived>false</isDerived>
+        <label>Organizer Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+</WaveXmd>

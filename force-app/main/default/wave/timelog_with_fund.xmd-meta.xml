@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>timelog_with_fund</dataset>
+    <dates>
+        <alias>Fund.navpeII__Final_Closing_Date__c</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Final Close</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dates>
+        <alias>Fund.navpeII__X1st_Closing_Date__c</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>First Close</label>
+        <sortIndex>1</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dates>
+        <alias>Week of</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Date</label>
+        <sortIndex>2</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fundraise</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Fund.Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>StringCountCommitments</field>
+        <isDerived>false</isDerived>
+        <label>Commitments</label>
+        <linkTemplate>/lightning/cmp/c__EinsteinReportRedirect?c__reportname=Closed_Fundraisings_by_Fund_T4W&amp;c__foldername=PE_Reports&amp;c__fv0={{row.Fund.Id}}</linkTemplate>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>StringCountdeclined</field>
+        <isDerived>false</isDerived>
+        <label>Declines</label>
+        <linkTemplate>/lightning/cmp/c__EinsteinReportRedirect?c__reportname=Declined_Fundraisings_by_Fund_x5y&amp;c__foldername=PE_Reports&amp;c__fv0={{row.Fund.Id}}</linkTemplate>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Fund.navpeII__Target_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Fund Target</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.navpeII__Total_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Capital Raised</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.Fundraising.CountFundraisingdeclined</field>
+        <isDerived>false</isDerived>
+        <label>Declines</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.Fundraising.Countfundraisingcommitments</field>
+        <isDerived>false</isDerived>
+        <label>Commitments</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.Drypowder</field>
+        <isDerived>false</isDerived>
+        <label>Dry Powder</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.Fundinvestment.navpeII__Investment_Amount__c</field>
+        <isDerived>false</isDerived>
+        <label>Investment (m)</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.First_Close_Amount_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>First Close (m)</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Fund.Timelog.Totalhours</field>
+        <isDerived>false</isDerived>
+        <label>Total Hours</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+</WaveXmd>

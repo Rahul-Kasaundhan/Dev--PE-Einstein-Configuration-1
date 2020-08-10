@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>fundraising_with_Consultant</dataset>
+    <dates>
+        <alias>Target Close Date</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Closing Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Consultant.fundraisingContact_with_fundraising_with_contact.navpeII__Contact_Full_Name__c</field>
+        <isDerived>false</isDerived>
+        <label>Consultant</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Consultant.fundraisingContact_with_fundraising_with_contact.navpeII__Contact_Full_Name__c</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Consultant.navpeII__Contact__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund_with_account.Institution_Type__c</field>
+        <isDerived>false</isDerived>
+        <label>Type</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Fundraising</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fund</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <measures>
+        <field>navpeII__Investment_Likely_Amount_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Commitment (m)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+</WaveXmd>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <measures>
+        <field>Fundraising_Tab___Pa_1.sum_navpeII__Investment_Likely_Amount_USD_mn__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Ac_1.sum_fundraising_with_fund.navpeII__Target_Commitments_USD_mn__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Ac_1.sum_fundraising_with_fund.navpeII__Total_Commitments_USD_mn__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Lo_1.A</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Ac_1.B</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Ac_1.C</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Tab___Pa_1.A</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Fundraising_Dashboard</waveVisualization>
+</WaveXmd>

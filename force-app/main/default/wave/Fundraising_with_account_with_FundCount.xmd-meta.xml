@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Fundraising_with_account_with_FundCount</dataset>
+    <dates>
+        <alias>Target Close Date</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Fundraising</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Consultant.fundraisingContact_with_fundraising_with_contact.navpeII__Contact_Full_Name__c</field>
+        <isDerived>false</isDerived>
+        <label>Consultant</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Consultant.fundraisingContact_with_fundraising_with_contact.navpeII__Contact_Full_Name__c</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Consultant.navpeII__Contact__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund_with_account.navpeII__Tier__c</field>
+        <isDerived>false</isDerived>
+        <label>Tier</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fund</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund_with_account.navpeII__Existing_LP__c</field>
+        <isDerived>false</isDerived>
+        <label>Existing LP</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fundraising_with_fund_with_account.Institution_Type__c</field>
+        <isDerived>false</isDerived>
+        <label>Institution Type</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>MeetingsText</field>
+        <isDerived>false</isDerived>
+        <label>Meetings</label>
+        <linkTemplate>/lightning/cmp/c__EinsteinReportRedirect?c__reportname=Meetings_for_Fundraisings_Yai&amp;c__foldername=PE_Reports&amp;c__fv0={{row.Id}}</linkTemplate>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Status_Notes__c</field>
+        <isDerived>false</isDerived>
+        <label>Notes</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>FundCountText</field>
+        <isDerived>false</isDerived>
+        <label>Fund Invested In</label>
+        <linkTemplate>/lightning/cmp/c__EinsteinReportRedirect?c__reportname=Accounts_Funds_Eso&amp;c__foldername=PE_Reports&amp;c__fv0={{row.navpeII__Legal_Name__c}}</linkTemplate>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>fundraising_with_fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Legal_Name__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <measures>
+        <field>navpeII__Investment_Likely_Amount_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Potential (M)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Fundraising_Task_rollup.TaskCounts.Meetings</field>
+        <isDerived>false</isDerived>
+        <label>Meetings</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>fundraising_with_fund.navpeII__Target_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Fund Target Amount</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>fundraising_with_fund.navpeII__Total_Commitments_USD_mn__c</field>
+        <isDerived>false</isDerived>
+        <label>Total Fund Commitments</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>fundraising_with_fund_with_account.Total_Commitments_USD__c</field>
+        <isDerived>false</isDerived>
+        <label>Capital Committed</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+</WaveXmd>

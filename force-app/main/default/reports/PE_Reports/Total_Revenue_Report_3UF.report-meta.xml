@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>navpeII__Pipeline__c$Name</field>
+    </columns>
+    <columns>
+        <field>navpeII__Pipeline__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>navpeII__Pipeline__c$navpeII__Log_In_Date__c</field>
+    </columns>
+    <columns>
+        <field>navpeII__Pipeline__c$navpeII__Stage__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>navpeII__Pipeline__c$navpeII__Revenue__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>navpeII__Pipeline__c.Deal_Team__r$Member__c.Id</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0053h000000owyA</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Total Revenue Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Deal_with_Deal_Teams__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>navpeII__Pipeline__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

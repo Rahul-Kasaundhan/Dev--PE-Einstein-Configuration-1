@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>fundraisingContact_with_fundraising_with_contact</dataset>
+    <dimensions>
+        <field>fundraisingContact_with_fundraising_with_contact.Name</field>
+        <isDerived>false</isDerived>
+        <label>Contact Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+</WaveXmd>

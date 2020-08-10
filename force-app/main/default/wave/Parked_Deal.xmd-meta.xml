@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <dimensions>
+        <field>Reason_To_Park__c_Fo_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>pipeline_with_indust_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>*</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #CC203D)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0</bin>
+                <formatValue>linear-gradient(to bottom, #98B1FF, #0D34B6)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>B</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>multiple</type>
+        </conditionalFormatting>
+        <field>project_pipeline_Nam_2.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Reason_To_Park__c_Fo_1.unique_Reason_To_Park__c</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Reason_To_Park__c_Fo_1.unique_Name</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>pipeline_with_indust_1.count</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>project_pipeline_Nam_1.sum_Deal_Size__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>*</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #CC203D)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0</bin>
+                <formatValue>linear-gradient(to bottom, #98B1FF, #0D34B6)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>B</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>multiple</type>
+        </conditionalFormatting>
+        <field>project_pipeline_Nam_2.B</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>lens_2.Deal_Size__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>navpeII__Stage__c_2.B</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>lens_2.PercentCompleted</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>pipeline_with_indust_1.A</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>navpeII__Stage__c_2.A</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>pipeline_with_indust_2.A</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>lens_1.navpeII__Revenue__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>lens_1.navpeII__EBITDA__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Table_Help_1.navpeII__Revenue__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>Table_Help_1.navpeII__EBITDA__c</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>navpeII__Stage__c_2.StageSort</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Parked_Deal</waveVisualization>
+</WaveXmd>

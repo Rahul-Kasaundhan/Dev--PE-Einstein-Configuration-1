@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>FinancialPerformanceWithFundInvestment</dataset>
+    <dimensions>
+        <field>quarterlyPerformance_with_account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Portfolio Company</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>quarterlyPerformance_with_account.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Company__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Company_FundInvestment.fundInvestment_with_fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fund</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Company_FundInvestment.fundInvestment_with_fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Company_FundInvestment.fundInvestment_with_fund.Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Company_FundInvestment.Fund_PortfolioCompany.UniqueCompaniesForFund</field>
+        <isDerived>false</isDerived>
+        <label># of Portfolio Companies</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+</WaveXmd>

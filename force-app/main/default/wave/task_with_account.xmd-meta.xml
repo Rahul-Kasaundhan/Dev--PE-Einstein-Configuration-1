@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>task_with_account</dataset>
+    <dimensions>
+        <field>WhatId__Account.navpeII__Tier__c</field>
+        <isDerived>false</isDerived>
+        <label>Tier</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Activity_Date__c_Quarter</field>
+        <isDerived>false</isDerived>
+        <members>
+            <label>1</label>
+            <member>1</member>
+            <sortIndex>0</sortIndex>
+        </members>
+        <members>
+            <label>2</label>
+            <member>2</member>
+            <sortIndex>1</sortIndex>
+        </members>
+        <members>
+            <label>3</label>
+            <member>3</member>
+            <sortIndex>2</sortIndex>
+        </members>
+        <members>
+            <label>4</label>
+            <member>4</member>
+            <sortIndex>3</sortIndex>
+        </members>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+</WaveXmd>

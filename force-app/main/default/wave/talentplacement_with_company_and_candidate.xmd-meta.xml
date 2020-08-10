@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>talentplacement_with_company_and_candidate</dataset>
+    <dates>
+        <alias>Candidate.Last_Touch_Point__c</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Last Touch Point</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>navpeII__Candidate_Name__c</field>
+        <isDerived>false</isDerived>
+        <label>Candidate Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.contact_with_industry.Name</field>
+        <isDerived>false</isDerived>
+        <label>Industry Focus</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Candidate.contact_with_industry.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Candidate.Industry__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.Email</field>
+        <isDerived>false</isDerived>
+        <label>Email</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.Name</field>
+        <isDerived>false</isDerived>
+        <label>Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Candidate.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Candidate_Name__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.Phone</field>
+        <isDerived>false</isDerived>
+        <label>Phone</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.Title</field>
+        <isDerived>false</isDerived>
+        <label>Title</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Company.Name</field>
+        <isDerived>false</isDerived>
+        <label>Company</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Company.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Company__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Role__c</field>
+        <isDerived>false</isDerived>
+        <label>Executive Type</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Company__c</field>
+        <isDerived>false</isDerived>
+        <label>Company id</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Candidate.Relationships_Classification__c</field>
+        <isDerived>false</isDerived>
+        <label>Relationship</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Durationinyear</field>
+        <isDerived>false</isDerived>
+        <label>Duration (years)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+</WaveXmd>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.Entities__r$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.Entities__r$Introduced_By__c</field>
+    </columns>
+    <columns>
+        <field>Contact$Industry__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Entities__r$Region__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact$Account.Id</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0013h000009fEgz</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Account</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Account Referrals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Entities_with_Indroduced_By__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

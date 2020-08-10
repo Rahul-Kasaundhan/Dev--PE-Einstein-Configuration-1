@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Partner_with_Pipeline</dataset>
+    <dates>
+        <alias>Log In Date</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Date Sent</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>navpeII__Reason_for_Decline__c</field>
+        <isDerived>false</isDerived>
+        <label>Reason for Decline Packaged (not to use)</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Pipeline_Comments__c</field>
+        <isDerived>false</isDerived>
+        <label>Notes</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Partner.Member.Name</field>
+        <isDerived>false</isDerived>
+        <label>Partner</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Partner.Member.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Partner.Member__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Deal</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Region.Name</field>
+        <isDerived>false</isDerived>
+        <label>Region</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Region.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Region__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>pipeline_with_industry.Name</field>
+        <isDerived>false</isDerived>
+        <label>Industry</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Industry__c</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Industry__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Source_Company__c.Account_Region.Name</field>
+        <isDerived>false</isDerived>
+        <label>Region</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>companyName.Name</field>
+        <isDerived>false</isDerived>
+        <label>Company Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>companyName.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Company_Name__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>pipeline_with_sourceContact.Name</field>
+        <isDerived>false</isDerived>
+        <label>Source Contact</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordIdField>navpeII__Source_Contact__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Source_Company__c.Name</field>
+        <isDerived>false</isDerived>
+        <label>Source Firm</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>navpeII__Source_Company__c.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Source_Company__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Source_Contact__c</field>
+        <isDerived>false</isDerived>
+        <label>Source Contact ID</label>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Company_Name__c</field>
+        <isDerived>false</isDerived>
+        <label>Company</label>
+        <sortIndex>11</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Decline_Reason__c</field>
+        <isDerived>false</isDerived>
+        <label>Reason for Decline</label>
+        <sortIndex>12</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Decline_Sub_Reason__c</field>
+        <isDerived>false</isDerived>
+        <label>Decline Sub Reason</label>
+        <sortIndex>13</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Deal_Type__c</field>
+        <isDerived>false</isDerived>
+        <label>Deal Type</label>
+        <sortIndex>14</sortIndex>
+    </dimensions>
+</WaveXmd>

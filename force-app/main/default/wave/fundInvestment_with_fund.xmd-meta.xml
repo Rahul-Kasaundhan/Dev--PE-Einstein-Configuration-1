@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>fundInvestment_with_fund</dataset>
+    <dimensions>
+        <field>fundInvestment_with_fund.Name</field>
+        <isDerived>false</isDerived>
+        <label>Fund</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>fundInvestment_with_fund.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Fund_Name__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>fndInvestment_with_fund_with_account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Company</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>fndInvestment_with_fund_with_account.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>navpeII__Portfolio_Company__c</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>navpeII__Portfolio_Company__c</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>false</linkTemplateEnabled>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+</WaveXmd>
