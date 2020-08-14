@@ -205,6 +205,78 @@
                 <default>false</default>
                 <label>Valuation</label>
             </value>
+            <value>
+                <fullName>Advisors</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advisors</label>
+            </value>
+            <value>
+                <fullName>Broker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Broker</label>
+            </value>
+            <value>
+                <fullName>Corporate Pensions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Corporate Pensions</label>
+            </value>
+            <value>
+                <fullName>Corporations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Corporations</label>
+            </value>
+            <value>
+                <fullName>Foundations/ Endowments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foundations/ Endowments</label>
+            </value>
+            <value>
+                <fullName>Friends &amp; Family</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Friends &amp; Family</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>Intermediaries</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Intermediaries</label>
+            </value>
+            <value>
+                <fullName>Lender</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lender</label>
+            </value>
+            <value>
+                <fullName>Public Pension Funds</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Public Pension Funds</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VIP</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vendor</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

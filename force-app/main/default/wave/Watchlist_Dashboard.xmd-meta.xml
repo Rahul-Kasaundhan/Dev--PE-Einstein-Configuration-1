@@ -77,6 +77,12 @@
         <isDerived>false</isDerived>
         <sortIndex>5</sortIndex>
     </measures>
+    <measures>
+        <field>Origination___Referr_2.D</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
     <type>Asset</type>
     <waveVisualization>Watchlist_Dashboard</waveVisualization>
 </WaveXmd>

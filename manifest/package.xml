@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>EinsteinReportController</members>
+        <members>Test_EinsteinReportController</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -78,6 +79,7 @@
         <members>PE_Einstein_UtilityBar</members>
         <members>Performance_Einstein</members>
         <members>Portfolio_Einstein</members>
+        <members>Documents</members>
         <name>FlexiPage</name>
     </types>
     <types>
