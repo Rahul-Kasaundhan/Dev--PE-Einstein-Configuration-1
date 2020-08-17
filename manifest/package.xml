@@ -212,6 +212,7 @@
         <members>taskrelation_with_task_with_account</members>
         <members>taskrelation_with_task_with_account_new</members>
         <members>timelog_with_fund</members>
+        <members>register_User_With_Log_Time</members>
         <name>WaveDataset</name>
     </types>
     <types>
@@ -292,6 +293,7 @@
         <members>Portfolio_Dashboard</members>
         <members>Portfolio_Financial_Performance</members>
         <members>Watchlist_Dashboard</members>
+        <members>register_User_With_Log_Time</members>
         <name>WaveXmd</name>
     </types>
     <types>
