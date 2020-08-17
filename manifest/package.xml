@@ -293,7 +293,6 @@
         <members>Portfolio_Dashboard</members>
         <members>Portfolio_Financial_Performance</members>
         <members>Watchlist_Dashboard</members>
-        <members>register_User_With_Log_Time</members>
         <name>WaveXmd</name>
     </types>
     <types>
